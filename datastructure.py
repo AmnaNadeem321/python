@@ -1,0 +1,86 @@
+#List-----mutable
+list1 = [1, 2, 3, 4, 5]
+print(type(list1))
+
+print(len(list1))
+
+list1.append(6)
+print(list1)
+
+list1.remove(1)
+print(list1)
+
+list1.pop(4)
+print(list1)
+
+#palindrome
+list2 = [1, 2, 3, 2, 1]
+orig = list2.copy()
+list2.reverse()
+print(list2)
+if  orig == list2.reverse():
+    print("this list is palindrome")
+else:
+    print("this list is not palindrome")    
+   
+
+
+
+
+#tuple-----imutable 
+tuple1 = (1,2,3)
+print(type(tuple1))
+
+print(tuple1.count)
+
+
+#Set----no duplicates and mutable
+
+set1 = {1, 2, 3, 4, 5, 6, 7}
+print(type(set1))
+
+set1.add(8)
+print(set1)
+
+set1.pop()
+print(set1)
+
+#union
+set2 = {1, 2, 5, 7, 8}
+SetUnion= set1.union(set2)
+print(SetUnion)
+
+#intersection
+set2 = {1, 2, 5, 7, 8}
+SetIntersection= set1.intersection(set2)
+print(SetIntersection)
+
+#subset
+SubSets = set1.issubset(set2)
+print(SubSets)
+
+#disjoint
+SetDis = set1.isdisjoint(set2)
+print(SetDis)
+
+#dictionary ----key imutable --value mutable
+dictionary1 = {1 : 20}
+print(type(dictionary1))
+
+studentdict = {
+    "name" : "safura",
+    "rollNo" : 2026,
+    "RegNo" : 177
+}
+print(studentdict)
+
+studentdict["name"] = "Safura"
+print(studentdict)
+
+print(type(studentdict))
+print(len(studentdict))
+
+StudentDict1 = studentdict.copy()
+print(StudentDict1)
+
+
