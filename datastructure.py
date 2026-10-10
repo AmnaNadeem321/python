@@ -16,22 +16,21 @@ print(list1)
 #palindrome
 list2 = [1, 2, 3, 2, 1]
 orig = list2.copy()
-list2.reverse()
+orig.reverse()
 print(list2)
 if  orig == list2.reverse():
     print("this list is palindrome")
 else:
     print("this list is not palindrome")    
-   
 
-
-
-
+ 
 #tuple-----imutable 
-tuple1 = (1,2,3)
+tuple1 = (1,2,3,4,5)
 print(type(tuple1))
 
-print(tuple1.count)
+#for loop
+for x in tuple1:
+    print(x)
 
 
 #Set----no duplicates and mutable
