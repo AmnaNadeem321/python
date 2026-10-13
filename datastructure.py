@@ -23,6 +23,17 @@ if  orig == list2.reverse():
 else:
     print("this list is not palindrome")    
 
+
+#largest number in the list
+list3  = [1, 2, 3, 7 ,35, 78, 92, 10]
+largest = max(list3)
+print("the largest number in the list is ", largest)
+
+#smallest number in the list
+list3  = [1, 2, 3, 7 ,35, 78, 92, 10]
+smallest = min(list3)
+print("the smallest number in the list is ", smallest)
+
  
 #tuple-----imutable 
 tuple1 = (1,2,3,4,5)
