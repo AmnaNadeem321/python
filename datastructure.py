@@ -18,7 +18,7 @@ list2 = [1, 2, 3, 2, 1]
 orig = list2.copy()
 orig.reverse()
 print(list2)
-if  orig == list2.reverse():
+if  orig == list2:
     print("this list is palindrome")
 else:
     print("this list is not palindrome")    
@@ -95,6 +95,19 @@ print(type(studentdict))
 print(len(studentdict))
 
 StudentDict1 = studentdict.copy()
-print(StudentDict1)
+print(StudentDict1)                                                                                                                                                                                                                                                                                                             
 
+x = StudentDict1.get("rollNo")
+print(x)
+
+x = StudentDict1.keys()
+print(x)
+
+y = StudentDict1["rollNo"] = 2027
+print(y)
+
+if "age" in StudentDict1:
+    print("yes it has name")
+else:
+    print("no it does not have")
 

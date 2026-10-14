@@ -17,7 +17,7 @@ print(x)
 print(y)
 print(z)
 
-#float
+#float 
 n1 = 1.2 
 print(type(n1))
 
