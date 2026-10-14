@@ -34,6 +34,10 @@ list3  = [1, 2, 3, 7 ,35, 78, 92, 10]
 smallest = min(list3)
 print("the smallest number in the list is ", smallest)
 
+#sum of the numbers in the list
+list3  = [1, 2, 3, 7 ,35, 78, 92, 10]
+addition = sum(list3)
+print("addition of the numbers are" , addition)
  
 #tuple-----imutable 
 tuple1 = (1,2,3,4,5)
