@@ -97,6 +97,10 @@ print(len(studentdict))
 StudentDict1 = studentdict.copy()
 print(StudentDict1)                                                                                                                                                                                                                                                                                                             
 
+print(studentdict.items())
+print(studentdict.keys())
+print(studentdict.items())
+
 if "age" in StudentDict1:
     print("yes it has name")
 else:
