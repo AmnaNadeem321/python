@@ -97,15 +97,6 @@ print(len(studentdict))
 StudentDict1 = studentdict.copy()
 print(StudentDict1)                                                                                                                                                                                                                                                                                                             
 
-x = StudentDict1.get("rollNo")
-print(x)
-
-x = StudentDict1.keys()
-print(x)
-
-y = StudentDict1["rollNo"] = 2027
-print(y)
-
 if "age" in StudentDict1:
     print("yes it has name")
 else:
